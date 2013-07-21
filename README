@@ -22,4 +22,4 @@ Specifications:
 	3. Copy the binary executable to the /usr/local/bin directory: sudo cp -r ssasm /usr/local/bin
 	4. Now use ssasm as a Ubuntu command. 
 
--- Suhas H (suhas239@gmail.com)
+-- Suhas H (suhas.h@ieee.org)
