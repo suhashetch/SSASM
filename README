@@ -1,0 +1,23 @@
+SSASM: Suhas Sumukha Assembler
+
+SSASM is a SIC(Simple Instructional Computer) machine assembler. It takes a SIC program as input and generates the object code for the SIC program.
+
+Specifications:
+
+- Opearting System: SSASM runs on Linux. It was developed on Ubuntu 13.04.
+
+- Input: A SIC program stored in a "<FileName>.txt" file.
+
+- Output: The object code in a "<InputFileName>.obj" file in the same directory as that of the input file.
+
+- Compiling and Executing: 
+	$cc -o ssasm ssasm.c
+	$./ssasm <InputFileName>.txt
+
+* A sample input (input.txt) and a sample output (input.obj) have been provided for convenience. 
+
+* To use SSASM as a Ubuntu command, follow the below mentioned steps:
+	1. Go to the directory where the SSASM source code resides. 
+	2. Compile the SSASM source code: cc -o ssasm ssasm.c
+	3. Copy the binary executable to the /usr/local/bin directory: sudo cp -r ssasm /usr/local/bin
+	4. Now use ssasm as a Ubuntu command. 
